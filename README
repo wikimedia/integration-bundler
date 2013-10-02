@@ -1,0 +1,11 @@
+integration/bundler
+
+http://bundler.io/ installation. Let us skip packaging entirely.
+
+Installed on a Precise instance using:
+
+  gem1.9.3 install bundler --env-shebang -i . --no-ri --no-rdoc
+
+To run:
+
+  GEM_PATH=`pwd` ./bin/bundle  --version
