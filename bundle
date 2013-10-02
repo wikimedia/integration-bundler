@@ -1,0 +1,4 @@
+#!/bin/bash
+# Wikimedia wrapper around Gem wrapper for bundler
+BASE_DIR=$(dirname $0)
+GEM_PATH="$BASE_DIR" exec "$BASE_DIR/bin/bundle" "$@"

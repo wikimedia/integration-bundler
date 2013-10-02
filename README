@@ -9,3 +9,5 @@ Installed on a Precise instance using:
 To run:
 
   GEM_PATH=`pwd` ./bin/bundle  --version
+
+Or use our shell wrapper /bundle
